@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import renderPoem from "./resources.js";
+import { connect } from "react-redux";
+import resources from "./resources";
+// import renderPoem from "./resources.js";
 
-export default class Output extends Component {
+class Output extends Component {
   render() {
-    return (
-      <div>
-        <renderPoem />
-      </div>
-    );
+    return <div>{/* <renderPoem /> */}</div>;
   }
 }
+export default connect(resources)(Output);
