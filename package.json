@@ -4,10 +4,13 @@
   "private": true,
   "dependencies": {
     "material-ui": "^0.19.4",
+    "p5": "^0.5.16",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
+    "react-p5-wrapper": "0.0.4",
     "react-scripts": "1.0.17",
-    "react-tap-event-plugin": "^3.0.2"
+    "react-tap-event-plugin": "^3.0.2",
+    "rita": "^1.2.12"
   },
   "scripts": {
     "start": "react-scripts start",

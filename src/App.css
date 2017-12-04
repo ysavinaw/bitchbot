@@ -40,6 +40,10 @@
 .righttext {
   color: black;
 }
+.renderedPoem{
+  display:block;
+  background-color: black;
+}
 
 @font-face {
     font-family: 'Peyo'; /*a name to be used later*/
