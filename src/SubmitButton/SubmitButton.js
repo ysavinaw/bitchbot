@@ -9,7 +9,6 @@ const SubmitButton = () => (
   <div>
     <br />
     <RaisedButton label="Submit" secondary={true} style={style} />
-
     <br />
     <br />
 

@@ -1,21 +1,11 @@
-import React, { Component } from 'react';
-
-
-
+import React, { Component } from "react";
 class Form extends Component {
   render() {
-    return(
-
+    return (
       <form className="inputform">
-        <input type="text" name="topic"/>
+        <input type="text" name="topic" />
       </form>
-
-
-
-    )
-
-
+    );
   }
 }
-
-export default Form
+export default Form;
