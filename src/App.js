@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Form from "./Form/Form.js";
 import DropDownMenuList from "./DropDownMenu/DropDownMenuList.js";
-import SubmitButton from "./SubmitButton/SubmitButton.js";
 import "./App.css";
 import Output from "./Output/Output.js";
 
@@ -25,7 +24,6 @@ class App extends Component {
           <br />
           <Form />
           <br />
-          <SubmitButton />
         </div>
 
         <div className="renderedPoem">
