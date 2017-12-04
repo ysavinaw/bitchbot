@@ -5,7 +5,8 @@ import resources from "./resources";
 
 class Output extends Component {
   render() {
-    return <div>{/* <renderPoem /> */}</div>;
+    console.log(this.props.inputS, this.props.julya);
+    return <div>Hello</div>;
   }
 }
 export default connect(resources)(Output);
