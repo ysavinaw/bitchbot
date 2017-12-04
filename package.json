@@ -14,7 +14,7 @@
     "react-tap-event-plugin": "^3.0.2",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "rita": "^1.2.12"
+    "rita": "^1.1.60"
   },
   "scripts": {
     "start": "react-scripts start",

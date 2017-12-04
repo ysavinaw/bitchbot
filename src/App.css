@@ -47,7 +47,7 @@
 
 @font-face {
     font-family: 'Peyo'; /*a name to be used later*/
-    src: url('./rescources/peyo/PeyoRegular.ttf'); /*URL to font*/
+    src: url('./resources/peyo/PeyoRegular.ttf'); /*URL to font*/
 }
 
 .App-title {
