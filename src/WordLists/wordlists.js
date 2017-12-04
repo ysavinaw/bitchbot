@@ -1,4 +1,4 @@
-var List0 = new Array(
+var List0 = [
   "All",
   "All",
   "All",
@@ -17,9 +17,9 @@ var List0 = new Array(
   "I am",
   "We are",
   "Very"
-);
+];
 
-var List1 = new Array(
+var List1 = [
   "dark",
   "quiet",
   "angry",
@@ -59,9 +59,9 @@ var List1 = new Array(
   "sinning",
   "sticky",
   "wanting"
-);
+];
 
-var List2 = new Array(
+var List2 = [
   "on",
   "in",
   "beneath",
@@ -78,9 +78,9 @@ var List2 = new Array(
   "behind",
   "against",
   "over"
-);
+];
 
-var List3 = new Array(
+var List3 = [
   "rain",
   "sky",
   "earth",
@@ -111,11 +111,11 @@ var List3 = new Array(
   "dreamscape",
   "bullshit",
   "virgin"
-);
+];
 
-var List4 = new Array("I", "We", "You");
+var List4 = ["I", "We", "You"];
 
-var List5 = new Array(
+var List5 = [
   "beat",
   "breed",
   "divine",
@@ -169,9 +169,9 @@ var List5 = new Array(
   "spread",
   "stretch",
   "smear"
-);
+];
 
-var List6 = new Array(
+var List6 = [
   "toads",
   "bugs",
   "men",
@@ -247,9 +247,9 @@ var List6 = new Array(
   "visions",
   "signs",
   "virgins"
-);
+];
 
-var List7 = new Array(
+var List7 = [
   "Alass!",
   "Alack!",
   "Alass, Alack!",
@@ -285,9 +285,9 @@ var List7 = new Array(
   "Be wary!",
   "Be aware!",
   "Awaken!"
-);
+];
 
-var List8 = new Array(
+var List8 = [
   "King",
   "Queen",
   "Knave",
@@ -318,9 +318,9 @@ var List8 = new Array(
   "bitch",
   "bastard",
   "stink"
-);
+];
 
-var List9 = new Array(
+var List9 = [
   "will go",
   "is going",
   "is gone",
@@ -348,4 +348,4 @@ var List9 = new Array(
   "keeps going",
   "must continue",
   "gets weird"
-);
+];
