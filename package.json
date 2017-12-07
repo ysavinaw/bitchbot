@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
     "material-ui": "^0.19.4",
     "p5": "^0.5.16",
     "react": "^16.2.0",
@@ -14,7 +17,8 @@
     "react-tap-event-plugin": "^3.0.2",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "rita": "^1.1.60"
+    "rita": "^1.1.60",
+    "webpack": "^3.10.0"
   },
   "scripts": {
     "start": "react-scripts start",

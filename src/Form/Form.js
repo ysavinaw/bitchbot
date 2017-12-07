@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import RaisedButton from "material-ui/RaisedButton";
 import { connect } from "react-redux";
 import { getData } from "../store/actions";
+import './formstyle.css';
 const style = {
   margin: 12
 };
@@ -21,8 +22,8 @@ class Form extends Component {
   };
   render() {
     return (
-      <form className="inputform">
-        <input type="text" name="topic" onChange={this.handleSubmit} />
+      <form >
+        <input className="inputform" type="text" name="topic" onChange={this.handleSubmit} />
         <RaisedButton
           label="Submit"
           secondary={true}

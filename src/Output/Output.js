@@ -4,9 +4,21 @@ import resources from "./resources";
 // import renderPoem from "./resources.js";
 
 class Output extends Component {
+  renderPoem = () => {
+    if(Object.keys(this.props.inputS._text).length === 0){
+      return "";
+    }else{
+      return this.props.renderPoem;
+    }
+  }
   render() {
-    console.log(this.props.inputS, this.props.julya);
-    return <div>Hello</div>;
+
+    return (
+      <div>
+         {this.renderPoem()}
+
+      </div>
+    )
   }
 }
 export default connect(resources)(Output);
