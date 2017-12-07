@@ -15,7 +15,8 @@ class Output extends Component {
 
     return (
       <div>
-        {this.renderPoem()}
+         {this.renderPoem()}
+
       </div>
     )
   }

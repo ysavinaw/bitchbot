@@ -23,29 +23,33 @@
 #lefttext {
   color: #ffffff;
   font-weight:100;
-  font-family: Verdana;
+  font-family: 'peyo';
 
 }
 .rightbox {
-  float: right;
   background-color: #faf5f9;
-  width: 45%;
-  height: 300px;
+  width: 55%;
+  height: 170px;
   margin-top: 110px;
-  margin-right: 100px;
-  font-family: Verdana;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'peyo';
   opacity: 0.7;
 
 }
 .righttext {
   color: black;
 }
+
+.note {
+  font-size: 10px;
+}
 .renderedPoem{
   display:inline-block;
 
   background-color: #faf5f9;
-  width: 55%;
-  
+  width: 22%;
+
   margin-top: 110px;
   margin-bottom: 100px;
   font-family: Verdana;

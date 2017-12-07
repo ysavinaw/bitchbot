@@ -9,21 +9,24 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title"> Welcome To The Bitch-Bot </h1>
+          <h1 className="App-title"> Bitch-Bot </h1>
           <p> Bitch. Vent. Problem-Solve. </p>
         </header>
-        <div className="leftbox" id="lefttext">
-          TEXT TEXT TEXT TEXT
-        </div>
+      {  // <div className="leftbox" id="lefttext">
+        //   TEXT TEXT TEXT TEXT
+        // </div>
+      }
         <div className="rightbox">
           <p className="righttext">
-            {" "}
-            Select a complaint from the provided list or enter your own!
+            {" "} <br /> <br />
+            Enter a brief complaint and press Submit to bitch about it.
           </p>
-          <DropDownMenuList />
-          <br />
+          {//<DropDownMenuList />
+          }
+
           <Form />
-          <br />
+
+          <p className="note">Note: We are always taking poetry submissions to feed our hungry corpus and generate better poems. </p>
         </div>
 
         <div className="renderedPoem">
