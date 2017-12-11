@@ -2,23 +2,39 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import resources from "./resources";
 // import renderPoem from "./resources.js";
-
+import "./index.css";
 class Output extends Component {
   renderPoem = () => {
-    if(Object.keys(this.props.inputS._text).length === 0){
+    if(Object.keys(this.props.poem).length === 0){
       return "";
     }else{
-      return this.props.renderPoem;
+      return <div>
+        {
+          this.props.poem.map(el => <p>{el}</p>)
+        }
+      </div>
     }
   }
-  render() {
-
+  render(){
+    console.log("the poem", this.props.poem);
     return (
-      <div>
+      <div className="poemWrapper">
          {this.renderPoem()}
-
       </div>
     )
   }
 }
-export default connect(resources)(Output);
+const mapStateToProps = (state) => {
+  if(Object.keys(state).length === 0){
+    return {
+      poem: []
+    }
+  }
+  else{
+    return {
+      poem: state.split(".")
+    }
+  }
+
+}
+export default connect(mapStateToProps)(Output);

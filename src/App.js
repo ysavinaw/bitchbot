@@ -26,7 +26,7 @@ class App extends Component {
 
           <Form />
 
-          <p className="note">Note: We are always taking poetry submissions to feed our hungry corpus and generate better poems. </p>
+
         </div>
 
         <div className="renderedPoem">

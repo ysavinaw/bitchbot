@@ -1,7 +1,4 @@
-Why must you be so mercilessly troubled?
-How dare you besiege my perfect existence
 
-Despicable and ridiculous, i cannot fathom the
 
 ADJ ADJ ADJ
 The NOUN is VERB at my NOUN.
