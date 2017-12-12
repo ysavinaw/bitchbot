@@ -2,14 +2,15 @@
   text-align: center;
 }
 
-.App-header {
+/*.App-header {
   background-color: #222;
   height: 100px;
   padding: 20px;
   color: white;
   font-family: 'peyo';
   font-size: 200%;
-}
+  text-align: center;
+}*/
 
 .leftbox {
   float: left;
@@ -29,7 +30,7 @@
 .rightbox {
   background-color: #faf5f9;
   width: 55%;
-  height: 170px;
+  height: 140px;
   margin-top: 110px;
   margin-left: auto;
   margin-right: auto;
@@ -61,10 +62,10 @@
     src: url('./resources/peyo/PeyoRegular.ttf'); /*URL to font*/
 }
 
-.App-title {
+/*.App-title {
   font-size: 1.5em;
   padding-bottom: 20px;
-}
+}*/
 
 .App-intro {
   font-size: large;
